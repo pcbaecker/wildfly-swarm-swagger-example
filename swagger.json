@@ -1,0 +1,31 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0.0",
+    "title" : "Wildfly Swarm Swagger Example",
+    "contact" : {
+      "name" : "Philipp C. Baecker <pcbaecker@gmail.com>"
+    }
+  },
+  "basePath" : "/",
+  "tags" : [ {
+    "name" : "example"
+  } ],
+  "paths" : {
+    "/example/test" : {
+      "get" : {
+        "tags" : [ "example" ],
+        "summary" : "test",
+        "description" : "",
+        "operationId" : "test",
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "default" : {
+            "description" : "successful operation"
+          }
+        }
+      }
+    }
+  }
+}
